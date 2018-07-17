@@ -47,7 +47,7 @@ class OrderbyYear extends Component {
     {
       title: 'Date',
       dataIndex: 'created_at',
-      width: 150
+      width: 100
     },
     {
       title: 'Price',

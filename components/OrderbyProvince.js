@@ -50,7 +50,7 @@ export default OrderbyProvince;
 const styles = StyleSheet.create({
   subtitle: {
     margin: 10,
-    fontSize: 28,
+    fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#000080',
