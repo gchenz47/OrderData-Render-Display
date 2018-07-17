@@ -18,7 +18,7 @@ class OrderbyProvinceScreen extends Component {
     {
       title: 'Date',
       dataIndex: 'created_at',
-      width: 100
+      width: 130
     },
     {
       title: 'Price',
@@ -39,7 +39,7 @@ class OrderbyProvinceScreen extends Component {
                 <Text key={key} style={styles.subtitle}>
                   {key}
                 </Text>
-                  <Table height={40*(data[key].length+1)} columnWidth={80} columns={columns} dataSource={data[key]} />
+                  <Table height={40*(data[key].length+1)} columnWidth={70} columns={columns} dataSource={data[key]} />
               </View>
             );
           }
