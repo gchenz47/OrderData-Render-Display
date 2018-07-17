@@ -31,7 +31,7 @@ class OrderbyProvinceScreen extends Component {
     ];
 
     return(
-      <ScrollView>
+      <ScrollView style={styles.container}>
         {Object.keys(data).map(key => {
           if (key !== 'null') {
             return (
@@ -64,5 +64,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: 'left',
     color: '#34495e',
+  },
+  container: {
+    flex: 1,
+    backgroundColor: '#ecf0f1',
   },
 });
