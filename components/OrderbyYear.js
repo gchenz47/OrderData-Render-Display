@@ -70,7 +70,7 @@ class OrderbyYear extends Component {
                   {data[key].length} orders created in {key}
                 </Text>
                   {this.state.showYearOrders ?
-                    <Table height={40*(data[key].length+1)} columnWidth={60} columns={columns} dataSource={data[key]} />
+                    <Table height={40*(data[key].length+1)} columnWidth={80} columns={columns} dataSource={data[key]} />
                     : null}
               </ScrollView>
             );
